@@ -99,10 +99,6 @@ class Ctrip_Area:
             # print(sheng_dict)
             self.shi_info(sheng_dict=sheng_dict)
 
-        # with open('JSON-省份链接.txt', 'w+') as f:
-        #     f.write(json.dumps(sheng_dict))
-        #     print('>>> JSON-省份链接 <<< 写入成功!    路径 >>> {}'.format(os.path.join(os.getcwd(), 'JSON-省份链接.txt')))
-
         pass
 
 
