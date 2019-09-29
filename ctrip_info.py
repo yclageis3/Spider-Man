@@ -178,7 +178,6 @@ class Ctrip_Area:
 
         pass
 
-
     def page_info(self, wz_url):
         time.sleep(random.randint(5, 15))
         resp = requests.get(wz_url, headers=self.headers, verify=False)
